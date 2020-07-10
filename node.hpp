@@ -17,7 +17,6 @@ public:
 
   std::shared_ptr<Point> pointPtr_;
   std::weak_ptr<Node> parentNode_;
-  inline static std::shared_ptr<Field> fieldPtr_;
 
 private:
 

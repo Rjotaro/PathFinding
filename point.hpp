@@ -2,9 +2,11 @@
 #define POINT_HPP
 
 #include <utility>
+#include <memory>
 
 class Point {
 public:
+  bool inNode_;
 
   Point();
   Point(std::pair<short, short>);
@@ -12,9 +14,7 @@ public:
 //  void setPoint(short int, short int, bool);
 
 private:
-
   const std::pair<short, short> coordinates_;
-  bool inNode_;
 };
 
 #endif
